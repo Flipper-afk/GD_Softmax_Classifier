@@ -13,7 +13,7 @@ output_dim = 4
 network = [input_dim, 100, 100, output_dim]
 regulizer = 1e-6
 
-# Build Network Model
+# Build Neural Network (FCMLP)
 NN = Model(network=network, regulizer=regulizer)
 
 ```
