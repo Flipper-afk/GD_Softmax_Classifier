@@ -27,8 +27,7 @@ lr = [[0.1]]
 # Gradient descent loop steps (single epoch)
 gd_loop = 1_000
 
-loss = NN.train(X_train,
-         y_train,
+loss = NN.train(X_train, y_train,
          learning_rate=lr,
          gd_loop=gd_loop,
          output=100)
