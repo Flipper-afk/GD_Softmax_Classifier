@@ -34,7 +34,7 @@ loss = NN.train(X_train, y_train,
          
  ```
  
- Evalute and Predict:
+ Evaluate and Predict:
  
  ```
  accurracy = NN.evaluate(X_test, y_test))
